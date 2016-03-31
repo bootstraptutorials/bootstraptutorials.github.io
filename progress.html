@@ -1,0 +1,210 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Bootstrap Tutorials</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <script src="js/jquery-2.2.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        
+    </head>
+    <body>   
+        <div class="page-header text-center head">
+            
+            <h1 class="hh1"><b>Bootstrap Tutorial</b></h1>
+        </div>
+    
+        <nav class="navbar navbar-inverse nav1">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#head">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button></div>
+            <div class="collapse navbar-collapse" id="head">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Introduction</a></li>
+                    <li><a href="grid.html">Grid</a></li>
+                    <li><a href="table.html">Tables</a></li>
+                    <li><a href="img.html">Images</a></li>
+                    <li><a href="navbar.html">Navbar</a></li>
+                    <li><a href="glyph.html">Glyphicons</a></li>
+                    <li><a href="carousel.html">Carousel</a></li>
+                    <li><a href="jumbo.html">Jumbotron</a></li>
+                    <li><a href="button.html">Button</a></li>
+                    <li><a href="dropdown.html">Dropdown</a></li>
+                    <li><a href="form.html">Form</a></li>
+                    <li><a href="tabs.html">Tabs</a></li>
+                    <li><a href="collapse.html">Collapse</a></li>
+                    <li><a href="modal.html">Modal</a></li>
+                    <li><a href="panel.html">Panels</a></li>
+                    <li><a href="progress.html">Progressbar</a></li>
+                    <li><a href="pagination.html">Pagination</a></li>
+                    <li><a href="alert.html">Alerts</a></li>
+                    <li><a href="badge.html">Badges</a></li>                       
+                </ul>
+            </div>
+        </nav>
+        <div class="container bwhite cmargin"> 
+            <h1 class="h1 blue center">Progress Bars</h1>
+            <ul type="circle" class="fli">
+                <li>&nbsp;&nbsp;&nbsp;Progress bar used to show a user how far along he is in a process</li>
+                <li>&nbsp;&nbsp;&nbsp;Provide up-to-date feedback on the progress of a workflow</li>
+            </ul>
+
+           
+            <h3>Default Progress Bar</h3>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                    <span class="sr-only">50% Complete</span>
+                </div>
+            </div>
+           
+            <br>
+            
+            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#code1">Show Code</button>
+            <div id="code1" class="coding  collapse">
+                <code>
+                       &lt;div class="progress"&gt;<br />
+                          &lt;div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%"&gt;<br />
+                            &lt;span class="sr-only"&gt;50% Complete&lt;/span&gt;<br />
+                          &lt;/div&gt;<br />
+                    &lt;/div&gt;
+                </code>
+            </div>
+            
+
+        <br><br><br>
+
+           
+            <h1 class="h1 blue center">Progress Bar with Lable</h1>
+            <ul type="circle" class="fli">
+                <li>&nbsp;&nbsp;&nbsp;With Lable in progress bar it will look like :</li>
+            </ul>
+
+                
+            <h3>Labled Progress Bar</h3>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" >
+                           50%
+                </div>
+            </div>
+               
+                <br>
+               
+            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#code2">Show Code</button>
+            <div id="code2" class="coding  collapse">
+                <code>
+                        &lt;div class="progress"&gt;<br />
+                          &lt;div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:50%"&gt;<br />
+                           50%<br />
+                          &lt;/div&gt;<br />
+                    &lt;/div&gt;
+                </code>
+            </div>
+        
+
+            <br><br><br>
+       
+            <h1 class="h1 blue center">Progress Bars with colour & strip</h1>
+            <ul type="circle" class="fli">
+                <li>&nbsp;&nbsp;&nbsp;With colors in progress bar it will look like :</li>
+            </ul>
+
+                
+            <h3>Colored Progress Bar</h3>
+            <div class="progress">
+                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="50" style="width:20%">
+                          20%(Success)
+                </div>
+            </div>
+                  
+               
+            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#code3">Show Code</button>
+            <div id="code3" class="coding  collapse">
+                <code>
+                    &lt;div class="progress"&gt;<br />
+                    &lt;div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="50" style="width:20%"&gt;<br />
+                          20%(Success)<br />
+                    &lt;/div&gt;<br />
+                    
+                </code>
+            </div>
+             
+            <br><br>
+                  
+            <h3>Colored Progress Bar</h3>
+            <div class="progress">
+                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                            50% Complete (info)
+                </div>
+            </div>
+                 
+                
+            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#code4">Show Code</button>
+            <div id="code4" class="coding  collapse">
+                <code>
+                    &lt;div class="progress"&gt;<br />
+                    &lt;div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="50"<br />
+                          aria-valuemin="0" aria-valuemax="100" style="width:50%"&gt;<br />
+                            50% Complete (info)<br />
+                          &lt;/div&gt;<br />
+                    &lt;/div&gt;
+                    
+                </code>
+            </div>
+              
+
+
+            <br><br>
+                 
+            <h3>Colored Progress Bar</h3>
+            <div class="progress">
+                <div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                            70% Complete(warning)
+                </div>
+            </div>
+                  
+               
+            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#code5">Show Code</button>
+            <div id="code5" class="coding  collapse">
+                <code>
+                    &lt;div class="progress"&gt;<br />
+                          &lt;div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="70"<br />
+                          aria-valuemin="0" aria-valuemax="100" style="width:70%"&gt;<br />
+                            70% Complete(warning)<br />
+                          &lt;/div&gt;<br />
+                    &lt;/div&gt;
+                    
+                </code>
+            </div>
+              
+
+            <br><br>
+                  
+            <h3>Colored Progress Bar</h3>
+            <div class="progress">
+                <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width:55%">
+                            55% Complete(danger)
+                </div>
+            </div>
+            
+                
+            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#code6">Show Code</button>
+            <br><br><br>
+            <div id="code6" class="coding  collapse">
+                <code>
+                    &lt;div class="progress"&gt;<br />
+                    &lt;div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuenow="55" aria-  valuemin="0" aria-valuemax="100" style="width:55%"&gt;<br />
+                            55% Complete(danger)<br />
+                    &lt;/div&gt;<br />
+                    &lt;/div&gt;
+                    
+                </code>
+            </div>
+        </div>
+
+
+    <footer class="text-center footer">bootstraptutorial&copy; 2016, All rights reserved</footer></body>
+</html>

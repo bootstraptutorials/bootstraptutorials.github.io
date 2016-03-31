@@ -1,0 +1,148 @@
+.logo1
+{
+    float:left; height:100px;
+}
+.nav1
+{
+    border-radius:0px;border:0px;
+}
+.head
+{
+    margin:0px;border:0px;
+    background-color:rgb(34, 34, 34); min-height:100px;
+}
+body{
+    background-color:#84cfcf;
+}
+.h1{
+    font-size: 4em;
+}
+.center{
+    text-align: center;                
+    color: blue;
+    
+}
+.p{
+    text-align: justify;
+    text-indent: 50px;
+    font-size: 2rem;
+}
+.navbar-inverse .navbar-nav > li > a:hover{ color:  aqua;}
+    
+.fli{
+    font-size: 2em;
+}
+code{
+    background-color:transparent;
+}
+.coding{
+    margin-top: 10px;
+    padding: 20px;
+    background-color:#eee;
+    border-radius: 10px;
+    font-size: 1.5em;
+}
+.blue{
+    color:blue;
+}
+  
+.bwhite{
+background-color: white;
+}
+p{
+    font-size:2em;
+}
+.griding
+{ 
+     
+    background-color:white;
+}
+.griding > div{
+    padding: 10px;
+    border: 1px solid;
+    text-align: center;
+}
+.border{
+border: 1px solid red;
+}
+.table{
+    background-color: white;
+}
+.table-striped > tbody > tr:nth-of-type(2n+1) {background-color:grey;
+}
+
+.dd >li{ display: block;
+text-align: center;
+float: left;
+width: 150px;
+    height: 140px;
+    margin-left: 10px; 
+
+margin-bottom: 20px;
+    
+    padding: 10px;
+
+}
+.dd>li:hover{background-color:black;color: white;}
+.glyphicon{
+font-size: 3.5em;
+}
+.glyphicon-class{
+    
+    font-size: 1.3em;
+}
+.dd > li > span.glyphicon{
+    display: block;
+float: none;
+    align-self: 
+}
+
+.cmargin{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    
+}
+.footer{
+    background-color:rgb(34, 34, 34);height:80px;
+    padding-top: 25px;
+    font-size: 1.7em;
+    color:white;
+    
+}
+ .hh1{
+     color:#84cfcf;
+     font-size:4em;
+     margin:0;
+     padding-top:18px;
+ }
+@media only screen and (max-width: 890px)
+{
+    
+    .hh1{
+        font-size:3.5em;
+    }
+                    
+}
+@media only screen and (max-width: 800px)
+{
+    .hh1{
+        font-size:3em;
+    }
+                
+}
+@media only screen and (max-width: 450px)
+{
+    .hh1{
+        font-size:2em;
+    }
+                
+}
+@media only screen and (max-width: 300px)
+{
+    .hh1{
+        font-size:1.5em;
+    }
+                
+}   

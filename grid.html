@@ -1,0 +1,167 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Bootstrap Tutorials</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <script src="js/jquery-2.2.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        
+    </head>
+    <body>   
+        <div class="page-header text-center head">
+            
+            <h1 class="hh1"><b>Bootstrap Tutorial</b></h1>
+        </div>
+    
+        <nav class="navbar navbar-inverse nav1">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#head">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button></div>
+            <div class="collapse navbar-collapse" id="head">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Introduction</a></li>
+                    <li><a href="grid.html">Grid</a></li>
+                    <li><a href="table.html">Tables</a></li>
+                    <li><a href="img.html">Images</a></li>
+                    <li><a href="navbar.html">Navbar</a></li>
+                    <li><a href="glyph.html">Glyphicons</a></li>
+                    <li><a href="carousel.html">Carousel</a></li>
+                    <li><a href="jumbo.html">Jumbotron</a></li>
+                    <li><a href="button.html">Button</a></li>
+                    <li><a href="dropdown.html">Dropdown</a></li>
+                    <li><a href="form.html">Form</a></li>
+                    <li><a href="tabs.html">Tabs</a></li>
+                    <li><a href="collapse.html">Collapse</a></li>
+                    <li><a href="modal.html">Modal</a></li>
+                    <li><a href="panel.html">Panels</a></li>
+                    <li><a href="progress.html">Progressbar</a></li>
+                    <li><a href="pagination.html">Pagination</a></li>
+                    <li><a href="alert.html">Alerts</a></li>
+                    <li><a href="badge.html">Badges</a></li>                       
+                </ul>
+            </div>
+        </nav>
+        <div class="container bwhite cmargin"> 
+            
+            <h1 class=" h1 center">Bootstrap Grid System</h1>
+            <br><br>
+            <div class="row">
+                <div class="col-sm-6 col-md-8 col-xs-12 ">
+                    <span style="font-size:50px;">News</span>
+                    <p class="p">When a woman collapsed into hepatic coma, a surgeon contacted a 
+    medical library. He needed immediate   
+    information on blood transfusions from the blood banks. Using a computer 
+    terminal and a retrieval program, the librarian searched more than half a 
+    million documents in just a few minutes. Necessary information was given to 
+    the surgeon and the patient recovered fully.  </p>
+                </div>
+                
+                <div class=" col-sm-6 col-md-4 col-xs-12">
+                    <span style="font-size:50px;">Activities</span>
+                    <p  class="p">When a woman collapsed into hepatic coma, a surgeon contacted a 
+        medical library. He needed immediate   
+        information on blood transfusions from the blood banks. Using a computer 
+        terminal and a retrieval program, the librarian searched more than half a 
+        million documents in just a few minutes. Necessary information was given to 
+        the surgeon and the patient recovered fully.  </p>
+                </div>
+
+            </div>
+            <br>
+            <br>
+            <p>Bootstrap's grid system allows up to 12 columns across the page</p>
+            <h1 class="blue"><b>device Responsive</b></h1>
+            <ul class="fli">
+                <li>xs -> Extra small screen(phone)</li>
+                <li>sm -> small screen(tablet)</li>
+                <li>md -> medium screen(desktop)</li>
+                <li>lg -> large screen(large LCD)</li>
+            </ul>
+            <br><br>
+           <center>
+                <img src="images/1.png" width="80%">
+            </center>
+            <br><br><br><br>
+        
+        
+            <div class="row griding">
+                <div class="col-xs-1 col-sm-1 col-md-1">1</div>
+                <div class="col-xs-1 col-sm-1 col-md-1">1</div>
+                <div class="col-xs-1 col-sm-1 col-md-1">1</div>
+                <div class="col-xs-1 col-sm-1 col-md-1">1</div>
+                <div class="col-xs-1 col-sm-1 col-md-1">1</div>
+                <div class="col-xs-1 col-sm-1 col-md-1">1</div>
+                <div class="col-xs-1 col-sm-1 col-md-1">1</div>
+                <div class="col-xs-1 col-sm-1 col-md-1">1</div>
+                <div class="col-xs-1 col-sm-1 col-md-1">1</div>
+                <div class="col-xs-1 col-sm-1 col-md-1">1</div>
+                <div class="col-xs-1 col-sm-1 col-md-1">1</div>
+                <div class="col-xs-1 col-sm-1 col-md-1">1</div>
+            </div>
+            <br>
+            <div class="row griding">
+                <div class="col-xs-8 col-sm-6 col-md-3 col-lg-1">
+                    <span class="hidden-lg hidden-md hidden-sm">col-xs-8</span>
+                    <span class="hidden-lg hidden-md hidden-xs">col-sm-6</span>
+                    <span class="hidden-lg hidden-xs hidden-sm">col-md-3</span>
+                    <span class="hidden-md hidden-xs hidden-sm">col-lg-1</span>
+                    
+                </div>
+                <div class="col-xs-4 col-sm-6 col-md-9 col-lg-11">
+                    <span class="hidden-lg hidden-md hidden-sm">col-xs-4</span>
+                    <span class="hidden-lg hidden-md hidden-xs">col-sm-6</span>
+                    <span class="hidden-lg hidden-xs hidden-sm">col-md-9</span>
+                    <span class="hidden-md hidden-xs hidden-sm">col-lg-11</span>
+                </div>
+            </div>
+            <br>
+            <div class="row griding">
+                <div class="col-md-8 col-md-offset-3 col-sm-8 col-sm-offset-3">offset</div>
+                
+            </div>
+        
+        <br><br>
+        
+        
+            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#code1">Show Code</button>
+            <div id="code1" class="coding  collapse">
+                <code>
+                &lt;div class="container"&gt;<br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="row  "&gt;<br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    &lt;div class="col-xs-1 col-sm-1 col-md-1"&gt;1&lt;/div&gt;<br />
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;div class="col-xs-1 col-sm-1 col-md-1"&gt;1&lt;/div&gt;<br />
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;div class="col-xs-1 col-sm-1 col-md-1"&gt;1&lt;/div&gt;<br />
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;div class="col-xs-1 col-sm-1 col-md-1"&gt;1&lt;/div&gt;<br />
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;div class="col-xs-1 col-sm-1 col-md-1"&gt;1&lt;/div&gt;<br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &lt;div class="col-xs-1 col-sm-1 col-md-1"&gt;1&lt;/div&gt;<br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &lt;div class="col-xs-1 col-sm-1 col-md-1"&gt;1&lt;/div&gt;<br />
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   &lt;div class="col-xs-1 col-sm-1 col-md-1"&gt;1&lt;/div&gt;<br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &lt;div class="col-xs-1 col-sm-1 col-md-1"&gt;1&lt;/div&gt;<br />
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   &lt;div class="col-xs-1 col-sm-1 col-md-1"&gt;1&lt;/div&gt;<br />
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   &lt;div class="col-xs-1 col-sm-1 col-md-1"&gt;1&lt;/div&gt;<br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    &lt;div class="col-xs-1 col-sm-1 col-md-1"&gt;1&lt;/div&gt;<br />
+           &nbsp;&nbsp;&nbsp;&nbsp; &lt;/div&gt;<br />
+           &nbsp;&nbsp;&nbsp;&nbsp; &lt;br&gt;<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;  &lt;div class="row"&gt;<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     &lt;div class="col-xs-8 col-sm-6 col-md-3 col-lg-1"&gt;xs-8, sm-6, md-3&lt;/div&gt;<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      &lt;div class="col-xs-4 col-sm-6 col-md-9 col-lg-11"&gt;xs-4, sm-6, md-9&lt;/div&gt;<br />
+       &nbsp;&nbsp;&nbsp;&nbsp;     &lt;/div&gt;<br />
+       &nbsp;&nbsp;&nbsp;&nbsp;     &lt;br&gt;<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;    &lt;div class="row"&gt;<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        &lt;div class="col-md-8 col-md-offset-3 col-sm-8 col-sm-offset-3"&gt;offset&lt;/div&gt;<br />
+    &nbsp;&nbsp;&nbsp;&nbsp; &lt;/div&gt;
+                <br />
+    &lt;/div&gt;
+                </code>
+            </div>
+        
+      
+        
+        </div>
+    <footer class="text-center footer">bootstraptutorial&copy; 2016, All rights reserved</footer></body>
+</html>
