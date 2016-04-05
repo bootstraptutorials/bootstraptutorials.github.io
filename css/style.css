@@ -41,6 +41,7 @@ code{
     background-color:#eee;
     border-radius: 10px;
     font-size: 1.5em;
+    word-wrap: break-word;
 }
 .blue{
     color:blue;
@@ -105,8 +106,8 @@ float: none;
     
 }
 .footer{
-    background-color:rgb(34, 34, 34);height:80px;
-    padding-top: 25px;
+    background-color:rgb(34, 34, 34);height:92px;
+    padding-top: 17px;
     font-size: 1.7em;
     color:white;
     
